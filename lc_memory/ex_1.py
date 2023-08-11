@@ -6,13 +6,10 @@ from langchain.chains import ConversationChain
 llm = ChatOpenAI()
 
 
-
-
 conversation_buf = ConversationChain(
     llm=llm,
     memory=ConversationBufferMemory()
 )
-
 
 res = conversation_buf("Good morning AI!")
 print("\n",res)
