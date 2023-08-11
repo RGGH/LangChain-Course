@@ -7,7 +7,8 @@ prompt = PromptTemplate(template=template, input_variables=["object"])
 
 
 prompt = prompt.format(object="ice")
-# The "query"
+
+# The "query" - you can print this to check it without using any tokens!
 print(prompt)
 
 
