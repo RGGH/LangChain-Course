@@ -5,6 +5,8 @@ from langchain.chains import ConversationChain
 # initialize the LLM ~ large language model
 llm = OpenAI(temperature=0)
 
+
+
 conversation_buf = ConversationChain(
     llm=llm,
     memory=ConversationBufferMemory()
