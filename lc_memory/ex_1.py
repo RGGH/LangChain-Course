@@ -28,7 +28,9 @@ Human: {input}
 AI:
 '''
         
-# notice how history is empty {history} is where conversational memory would appear
+# notice how history is empty {history} this is where conversational memory would appear
+
+# If there is any history it gets passed into the model at the same time as your next question
     
 '''By default, these chatbots don't have memory...
 They treat each thing you say as a separate, new conversation, 
