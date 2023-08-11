@@ -1,9 +1,10 @@
-from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
 # initialize the LLM ~ large language model
-llm = OpenAI(temperature=0)
+llm = ChatOpenAI()
+
 
 
 

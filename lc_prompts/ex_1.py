@@ -1,12 +1,13 @@
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 
-template = "Can you tell me a riddle about {object} with its answer?"
 
-prompt = PromptTemplate(template=template, input_variables=["object"])
+template = "Can you tell me a riddle about {topic} with your answer?"
+
+prompt = PromptTemplate(template=template, input_variables=["topic"])
 
 
-prompt = prompt.format(object="ice")
+prompt = prompt.format(topic="flowers")
 
 # The "query" - you can print this to check it without using any tokens!
 print(prompt)
