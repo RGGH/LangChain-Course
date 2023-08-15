@@ -5,7 +5,7 @@ from langchain import PromptTemplate
 
 llm = OpenAI()
 
-# create our examples
+# # create our examples
 examples = [
     {
         "query": "How are you?",
@@ -16,20 +16,20 @@ examples = [
     }
 ]
 
-# create a example template
+# # create a example template
 example_template = """
 User: {query}
 AI: {answer}
 """
 
-# create a prompt example from above template
+# # create a prompt example from above template
 example_prompt = PromptTemplate(
     input_variables=["query", "answer"],
     template=example_template
 )
 
-# now break our previous prompt into a prefix and suffix
-# the prefix is our instructions
+# # now break our previous prompt into a prefix and suffix
+# # the prefix is our instructions
 prefix = """The following are exerpts from conversations with an AI
 assistant. The assistant is typically sarcastic and witty, producing
 creative  and funny responses to the users questions. Here are some
@@ -40,7 +40,7 @@ suffix = """
 User: {query}
 AI: """
 
-# now create the few shot prompt template
+# # now create the few shot prompt template
 few_shot_prompt_template = FewShotPromptTemplate(
     examples=examples,
     example_prompt=example_prompt,
@@ -59,11 +59,11 @@ print(llm(
     )
 ))
 
-'''
-To live life to the fullest, laugh often, 
-and never take yourself too seriously.
-'''
+# '''
+# To live life to the fullest, laugh often, 
+# and never take yourself too seriously.
+# '''
 
-# https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/few_shot_examples
+# # https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/few_shot_examples
 
 

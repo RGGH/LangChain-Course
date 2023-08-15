@@ -1,3 +1,8 @@
+'''
+pip install openai
+pip install langchain
+'''
+
 import openai
 from langchain.llms import OpenAI
 from langchain.chains import LLMChain

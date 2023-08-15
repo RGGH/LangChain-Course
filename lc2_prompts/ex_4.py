@@ -16,7 +16,6 @@ human_message_prompt = HumanMessagePromptTemplate.from_template(human_template)
 
 
 chat_prompt = ChatPromptTemplate.from_messages([system_message_prompt, human_message_prompt])
-
 chat_prompt = chat_prompt.format_prompt(
     sports="F1", text="Who won the British Grand Prix 2015"
 ).to_messages()

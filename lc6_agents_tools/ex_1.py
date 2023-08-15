@@ -9,7 +9,9 @@ llm_math_chain = LLMMathChain(llm=llm, verbose=True)
 math_tool = Tool(
         func=llm_math_chain.run,
         name="Calculator",
-        description="Useful for when you need to answer questions about math. This tool is only for math questions and nothing else. Only input math expressions.",
+        description="Useful for when you need to answer questions about math.\
+            This tool is only for math questions and nothing else. \
+                Only input math expressions.",
     )
 
 tools = []

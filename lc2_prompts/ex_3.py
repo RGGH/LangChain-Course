@@ -4,7 +4,8 @@ import openai
 class Chatty:
     def chat(self, input):
         messages = [
-            {"role": "system", "content": "You are a helpful, upbeat and funny assistant"},
+            {"role": "system", "content": "You are a helpful,\
+                upbeat and funny assistant"},
             {"role": "user", "content": input},
         ]
         response = openai.ChatCompletion.create(
