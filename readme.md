@@ -1,12 +1,16 @@
 # LangChain Course
 
-<img id="img-with-fallback" class="style-scope ytcp-img-with-fallback" src="https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA">
+
+[![Watch the video](https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA)]
+(https://youtu.be/jfJbaJHnnP0)
+
+img id="img-with-fallback" class="style-scope ytcp-img-with-fallback" src="https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA">
 
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
 
 > “First, **it makes it easier to build applications that use LLMs**. LLMs are complex models that can be difficult to use directly. LangChain provides a simple interface that makes it easy to connect LLMs to your application. Second, LangChain allows you to connect LLMs to other sources of data.
 
-### TLDR
+### TLDR;
 
 **Components - prompt templates**
 
