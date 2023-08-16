@@ -4,7 +4,7 @@
 <div>
 <a href="https://www.youtube.com/watch?v=jfJbaJHnnP0">
     <img src="https://github.com/RGGH/LangChain-Course/blob/main/readme/thumb1.jpg" alt="Python360 YouTube" width="200"/>
-</a>
+</a><br>
 </div>
 
 
