@@ -1,11 +1,12 @@
 # LangChain Course
 
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
+
 <div>
+    &nbsp;<br>
 <a href="https://www.youtube.com/watch?v=jfJbaJHnnP0">
     <img src="https://github.com/RGGH/LangChain-Course/blob/main/readme/thumb1.jpg" alt="Python360 YouTube" width="200"/>
 </a>
-    &nbsp;<br></br>
     &nbsp;<br>
 </div>
 
