@@ -1,8 +1,8 @@
 # LangChain Course
 
-![https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA](https://youtu.be/jfJbaJHnnP0)
-
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
+
+![Image](readme/thumb1.jpg)
 
 > “First, **it makes it easier to build applications that use LLMs**. LLMs are complex models that can be difficult to use directly. LangChain provides a simple interface that makes it easy to connect LLMs to your application. Second, LangChain allows you to connect LLMs to other sources of data.
 
@@ -15,8 +15,6 @@
 **Agents - allow LLMs to interact (with external APIs)**
 
 ### Without LangChain vs with LangChain
-
-![Untitled-2023-08-10-1612.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Untitled-2023-08-10-1612.png)
 
 Available for **Python *and* JavaScript**
 
@@ -46,10 +44,6 @@ Features of LangChain:
 [https://platform.openai.com/examples](https://platform.openai.com/examples)
 
 [https://platform.openai.com/playground](https://platform.openai.com/playground)
-
----
-
-![Untitled](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Untitled.png)
 
 - Go to [http://platform.openai.com](http://platform.openai.com/)
 - Sign in, and start testing prompts!
