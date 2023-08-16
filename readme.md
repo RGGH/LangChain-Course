@@ -6,9 +6,7 @@
     <img src="https://github.com/RGGH/LangChain-Course/blob/main/readme/thumb1.jpg" alt="Python360 YouTube" width="200"/>
 </a><br>
 </div>
-
-
-
+    
 “First, **it makes it easier to build applications that use LLMs**. LLMs are complex models that can be difficult to use directly. LangChain provides a simple interface that makes it easy to connect LLMs to your application. Second, LangChain allows you to connect LLMs to other sources of data.
 
 ### TLDR;
