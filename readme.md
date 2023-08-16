@@ -1,15 +1,14 @@
 # LangChain Course
 
----
+<img id="img-with-fallback" class="style-scope ytcp-img-with-fallback" src="https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA">
 
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
 
 > “First, **it makes it easier to build applications that use LLMs**. LLMs are complex models that can be difficult to use directly. LangChain provides a simple interface that makes it easy to connect LLMs to your application. Second, LangChain allows you to connect LLMs to other sources of data.
-> 
 
-### TLDR;
+### TLDR
 
-**Components - prompt templates** 
+**Components - prompt templates**
 
 **Chains - solve a specific task**
 
@@ -67,13 +66,13 @@ export OPENAI_API_KEY=sk-xsssdfsddf67sadfasdfOXT3BlbkFJo12Ssdafdfasfadsfsafas
 pip install openai
 ```
 
-****ChatGPT API Transition Guide :**** 
+****ChatGPT API Transition Guide :****
 
-'role' can take one of three values: 
+'role' can take one of three values:
 
-'system', 
+'system',
 
-'user' 
+'user'
 
 'assistant’
 
@@ -117,7 +116,7 @@ There are lots of LLM providers (OpenAI, Cohere, Hugging Face, etc) - the `LLM`
 
 [https://python.langchain.com/docs/use_cases/chatbots/#overview](https://python.langchain.com/docs/use_cases/chatbots/#overview)
 
-You can use `LLMs` (see [here](https://python.langchain.com/docs/modules/model_io/models/llms)) for chatbots as well, but chat models have a more conversational tone and natively support a message interface. 
+You can use `LLMs` (see [here](https://python.langchain.com/docs/modules/model_io/models/llms)) for chatbots as well, but chat models have a more conversational tone and natively support a message interface.
 
 ```jsx
 from langchain.llms import OpenAI
@@ -170,7 +169,7 @@ PromptTemplate
 
 [https://platform.openai.com/playground](https://platform.openai.com/playground)
 
-Single shot v Few Shot 
+Single shot v Few Shot
 
 [https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/few_shot_examples](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/few_shot_examples)
 
@@ -226,7 +225,6 @@ memory.chat_memory.add_ai_message("whats up?")
 ConversationSummaryMemory keeps a **summarized** form of the conversation.
 
 > “Progressively summarize the lines of conversation provided, adding onto the previous summary returning a new summary.”
-> 
 
 ```bash
 conversation_sum = ConversationChain(
