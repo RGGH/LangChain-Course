@@ -86,7 +86,6 @@ View token usage in your code :
 
 You can try free LLMs but they often need RAM == $$$
 
-![Untitled](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Untitled%201.png)
 
 ```bash
 from langchain.callbacks import get_openai_callback
@@ -140,8 +139,6 @@ Chat Models: **Unlike LLMs, chat models take chat messages as inputs and return
 [https://platform.openai.com/docs/guides/gpt/which-model-should-i-use](https://platform.openai.com/docs/guides/gpt/which-model-should-i-use)
 
 **`gpt-3.5-turbo`** returns outputs with lower latency and costs much less per token
-
-![Untitled](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Untitled%202.png)
 
 .predict and .run methods are usually the same!
 
@@ -281,7 +278,6 @@ pip install langchain.vectorstores langchain.embeddings
 langchain.text_splitter qdrant_client numpy sentence_transformers tqdm
 ```
 
-![al1.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/al1.png)
 
 ```python
 import langchain
@@ -292,7 +288,6 @@ langchain.debug = True
 python3.10 -i q1.py
 ```
 
-![Untitled](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Untitled%203.png)
 
 ![Screenshot from 2023-08-15 10-11-31.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Screenshot_from_2023-08-15_10-11-31.png)
 
@@ -318,6 +313,3 @@ Evaluation - Use LLMs to evaluate LLMs
 
 [https://github.com/pinecone-io/examples/tree/master/learn/generation/langchain/handbook](https://github.com/pinecone-io/examples/tree/master/learn/generation/langchain/handbook)
 
-Watch the video :
-
-![LangChain_Full_COurse.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/LangChain_Full_COurse.png)
