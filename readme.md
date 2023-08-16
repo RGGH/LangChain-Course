@@ -1,8 +1,7 @@
 # LangChain Course
 
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
-
-![](https://youtu.be/jfJbaJHnnP0)
+<img src="https://github.com/github.png" alt="https://youtu.be/jfJbaJHnnP0" width="200"/>
 
 > “First, **it makes it easier to build applications that use LLMs**. LLMs are complex models that can be difficult to use directly. LangChain provides a simple interface that makes it easy to connect LLMs to your application. Second, LangChain allows you to connect LLMs to other sources of data.
 
