@@ -1,10 +1,6 @@
 # LangChain Course
 
-
-[![Watch the video](https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA)]
-(https://youtu.be/jfJbaJHnnP0)
-
-img id="img-with-fallback" class="style-scope ytcp-img-with-fallback" src="https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA">
+[https://i9.ytimg.com/vi/jfJbaJHnnP0/mqdefault.jpg?v=64dbe62c&sqp=CIzO8aYG&rs=AOn4CLCnMJwV_MbbfArMAQLkOMpBjMkWKA](https://youtu.be/jfJbaJHnnP0)
 
 ### Introduction ~ LangChain : what is it, how does it work, why might you use it?
 
