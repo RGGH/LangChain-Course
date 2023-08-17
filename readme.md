@@ -264,7 +264,6 @@ pprint(conversation.memory.entity_store.store)
 - Retrievers
 - Vector stores - embed text as vectors (Similarity Search)
 
-![qdrant_langchain_FAISS_v_LLM-1024x502.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/qdrant_langchain_FAISS_v_LLM-1024x502.png)
 
 [https://www.pinecone.io/](https://www.pinecone.io/)
 
@@ -291,8 +290,6 @@ langchain.debug = True
 python3.10 -i q1.py
 ```
 
-
-![Screenshot from 2023-08-15 10-11-31.png](LangChain%20Course%2073d458248b16461a98caa17452fe82fa/Screenshot_from_2023-08-15_10-11-31.png)
 
 ### Agents - LLMs plus Tools
 
